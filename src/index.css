@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.test-page {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+/* DESKTOP STYLES*/
+.div-container-desk {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 20%;
+}
+.desktop-style {
+  font-size: 3.5em;
+  border: 0.1em dotted salmon;
+  background-color: transparent;
+  padding: 1em;
+}
+
+/* TABLET STYLES*/
+.div-container-tablet {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20%;
+}
+.tablet-style {
+  font-size: 2em;
+  background-color: rgba(196, 114, 250, 0.69);
+  padding: 0.5em;
+}
+
+/* MOBILE STYLES */
+.div-container-mobile {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20%;
+}
+.mobile-style {
+  font-size: 1.5em;
+  border: 0.1em solid rgb(44, 0, 131);
+  padding: 0.1em;
+  margin: 1em;
+}
+
+
+
+
+
+
